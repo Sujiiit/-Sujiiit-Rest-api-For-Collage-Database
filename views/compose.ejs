@@ -1,0 +1,43 @@
+<%-include('partations/Header');  -%> 
+
+   <div class='container-fluid body-content'>
+   
+     <div class='content'>
+       <h1> <%= Title %> </h1>
+ 
+       <form action="/" method="POST"   enctype="multipart/form-data">
+          <label for="comment">Title</label> <br>
+          <input type="text"  class='title-input' name='posttitle' autocomplete='off' required>
+
+          <div class="form-group">
+            <label for="comment">Post</label>
+            <textarea class="form-control" name='postcontent' rows="10"  required></textarea>
+            <input type='hidden' name='hidden' value=''>
+          </div>
+
+          
+
+           <div class='buttons'>
+             <div class='filebutton btn btn-outline-success'>
+             <input type='file' id="image"  name="image" value=""  class='btn' > <i class="fas fa-images fa-2x"></i> 
+             </div>
+             
+         <br>
+               <label style='margin: 20px'>     </label>
+
+        <br>
+          <button type='submit'  class="btn btn-outline-primary btn-lg">Publish <i class="far fa-paper-plane fa-2x"></i></button>
+          </div>
+        </form>
+
+
+    </div>
+   </div>
+
+
+     
+
+
+
+<%- include('partations/Footer'); -%>
+

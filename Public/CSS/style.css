@@ -1,0 +1,35 @@
+ 
+ /*Navigation container*/
+.container-fluid {  background-color:  #141c3a;   }
+.navigation{ font-size: 25px; padding: 1% 15%; }
+.navbar-brand{  font-size: 35px;  color: white !important}
+.nav-link,.form-inline{ margin-left: 20px;  color: white !important}
+a:hover { color: red;  }
+#search{ color: #7510F7; border-radius: 20px; font-weight: bold; width: 70%; font-size: 13px; }
+.button{ background-color: transparent; border: none; color: white;  }
+
+/*Body container*/
+.container-fluid.body-content{ background-color: white; padding: 3% 16%; color:  #141c3a; }
+.content{ margin-top: 1%;  text-align: center;}
+p{ font-size: 18px; color: black; margin: 1%;}
+.imagesize{ width: 60%;  height: 40%;}
+.posttitle{ margin: 2%;  }
+
+ Compose page 
+form{ margin-top: 3%;   }
+form.h1{  color: #228be6 }
+.title-input{ width: 100%; height: 40px;}
+.form-group{ margin-top: 2%  }
+label{ font-size: 20px; font-weight: bold; }
+.buttons{text-align: center; margin-top: 3%;}
+
+/*.filebutton{ background-color: green; width: 30% }*/
+
+/*.btn:active{ color: green; }*/
+
+/*Button styles
+/*background-color: #7510F7;  color: white;*/
+
+
+
+
