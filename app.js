@@ -8,7 +8,7 @@ let express,app,mongoose;
    let StarterFile = require('./Starter');
    
    // Listning on port 5000
-   app.listen(5000, ( ()  => { console.log('Server started on port 5000.');  }));
+   app.listen(process.env.PORT, ( ()  => { console.log('Server started on port 5000.');  }));
    
  
 
